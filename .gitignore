@@ -1,0 +1,53 @@
+# ---- Python / Django ----
+__pycache__/
+*.sqlite3
+*.log
+*.py[cod]
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env.*
+.envrc
+venv/
+build/
+dist/
+*.egg-info/
+
+# ---- Django specific ----
+db.sqlite3
+media/
+staticfiles/
+logic/*
+!logic/main.py
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Docker ----
+*.pid
+*.bak
+*.swp
+docker-compose.override.yml
+
+# ---- Git ----
+*.orig
+*.rej
+
+# ---- Others ----
+coverage/
+htmlcov/
+*.cover
+*.log
+*.pot
+pip-log.txt
+pip-delete-this-directory.txt
+celerybeat-schedule
